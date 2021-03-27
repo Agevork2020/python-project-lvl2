@@ -26,3 +26,9 @@ jobs:
       - name: Run linter and pytest
         run: |
           make lint
+      - name:  Coverage report 
+        uses: paambaati/codeclimate-action@v2.7.5
+        env:
+          CC_TEST_REPORTER_ID: dca68d8a96676d608132cc9b139fa275bd50d37dc6118b6ee0a484306d949fd6
+        with:
+          coverageCommand: make coverage
