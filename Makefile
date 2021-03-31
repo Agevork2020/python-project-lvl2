@@ -17,8 +17,7 @@ make lint:
 	poetry run flake8 gendiff
 
 make test:
-	poetry run pytest -v
+	poetry run pytest -vv
 
 make coverage:
 	poetry run coverage xml
-	

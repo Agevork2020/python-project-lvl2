@@ -1,1 +1,3 @@
-from gendiff.generate_diff_json import generate_diff
+from gendiff.diff import render_diff
+from gendiff.scripts.parser import parser
+
