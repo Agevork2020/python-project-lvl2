@@ -1,6 +1,6 @@
 import json
 import yaml
-from gendiff.format import stylish, plain
+from gendiff.format import stylish, plain, json_format
 
 
 def read(source):
@@ -49,4 +49,6 @@ def render_diff(source1, source2, format):
         result = stylish(diff(file1, file2))
     elif format == 'plain':
         result = plain(diff(file1, file2))
+    elif format == 'json_format':
+        result = json_format(diff(file1, file2))
     return result
