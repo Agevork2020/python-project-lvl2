@@ -1,6 +1,7 @@
 from gendiff.parser import parser
 from gendiff.format import stylish, plain, json_format
 from gendiff.file_reading import read
+from gendiff.diff import diff
 
 
 def render_diff(source1, source2, format):
