@@ -4,21 +4,21 @@ from path import sniff_glue
 
 
 plain_1_json = sniff_glue(
-    '1_plain.json', 'gendiff', 'tests', 'fixtures', 'files')
+    '1_plain.json',  'tests', 'fixtures', 'files')
 plain_2_json = sniff_glue(
-    '2_plain.json', 'gendiff', 'tests', 'fixtures', 'files')
+    '2_plain.json', 'tests', 'fixtures', 'files')
 plain_1_yaml = sniff_glue(
-    '1_plain.yaml', 'gendiff', 'tests', 'fixtures', 'files')
+    '1_plain.yaml', 'tests', 'fixtures', 'files')
 plain_2_yaml = sniff_glue(
-    '2_plain.yaml', 'gendiff', 'tests', 'fixtures', 'files')
+    '2_plain.yaml', 'tests', 'fixtures', 'files')
 nested_1_json = sniff_glue(
-    '1_nested.json', 'gendiff', 'tests', 'fixtures', 'files')
+    '1_nested.json', 'tests', 'fixtures', 'files')
 nested_2_json = sniff_glue(
-    '2_nested.json', 'gendiff', 'tests', 'fixtures', 'files')
+    '2_nested.json', 'tests', 'fixtures', 'files')
 nested_1_yaml = sniff_glue(
-    '1_nested.yaml', 'gendiff', 'tests', 'fixtures', 'files')
+    '1_nested.yaml', 'tests', 'fixtures', 'files')
 nested_2_yaml = sniff_glue(
-    '2_nested.yaml', 'gendiff', 'tests', 'fixtures', 'files')
+    '2_nested.yaml', 'tests', 'fixtures', 'files')
 
 
 def test_diff_json():

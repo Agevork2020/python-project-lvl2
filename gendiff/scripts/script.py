@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """A gendiff script."""
-from gendiff.generate_diff import render_diff
+from gendiff.parser import parser
 
 
 def main():
     """Run a code."""
-    print(render_diff())
+    print(parser())
 
 
 if __name__ == '__main__':
